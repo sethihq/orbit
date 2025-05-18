@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A minimalist clock inspired by Dieter Rams design principles">
+    <meta name="theme-color" content="#fafaf9">
+    <title>Dieter Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-warm">
+    <main class="clock-container" role="main">
+        <!-- Analog Clock -->
+        <div class="analog-clock" role="timer" aria-label="Analog clock">
+            <!-- Hour Markers -->
+            <div class="hour-markers" aria-hidden="true">
+                <div class="hour-marker marker-12"></div>
+                <div class="hour-marker marker-1"></div>
+                <div class="hour-marker marker-2"></div>
+                <div class="hour-marker marker-3"></div>
+                <div class="hour-marker marker-4"></div>
+                <div class="hour-marker marker-5"></div>
+                <div class="hour-marker marker-6"></div>
+                <div class="hour-marker marker-7"></div>
+                <div class="hour-marker marker-8"></div>
+                <div class="hour-marker marker-9"></div>
+                <div class="hour-marker marker-10"></div>
+                <div class="hour-marker marker-11"></div>
+            </div>
+            <!-- Second Hand Trail Container -->
+            <div class="second-trail-container" aria-hidden="true"></div>
+            <!-- Clock Dots -->
+            <div class="dot center-dot" aria-hidden="true"></div>
+            <div class="dot hour-dot" aria-label="Hour indicator"></div>
+            <div class="dot minute-dot" aria-label="Minute indicator"></div>
+            <div class="dot second-dot" aria-label="Second indicator"></div>
+        </div>
+
+        <!-- Digital Clock -->
+        <div class="digital-clock" role="timer" aria-label="Digital clock" hidden>
+            <div class="time-display">
+                <time datetime="" aria-live="polite"></time>
+                <span class="timezone" aria-label="Time zone"></span>
+            </div>
+        </div>
+
+        <!-- Grid Overlay -->
+        <div class="grid-overlay" aria-hidden="true"></div>
+
+        <!-- Exit Focus Button -->
+        <button class="exit-focus" aria-label="Exit focus mode">ESC</button>
+
+        <!-- Keyboard Shortcuts -->
+        <div class="shortcuts" role="region" aria-label="Keyboard shortcuts">
+            <div class="key-group">
+                <kbd>M</kbd>
+                <span>Mode</span>
+            </div>
+            <div class="key-group">
+                <kbd>T</kbd>
+                <span>Theme</span>
+            </div>
+            <div class="key-group">
+                <kbd>F</kbd>
+                <span>Focus</span>
+            </div>
+            <div class="key-group">
+                <kbd>G</kbd>
+                <span>Grid</span>
+            </div>
+            <div class="key-group">
+                <kbd>S</kbd>
+                <span>Sound</span>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
