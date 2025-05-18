@@ -55,7 +55,7 @@ A minimalist, Dieter Rams-inspired clock web application that combines elegant d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/orbit.git
+   git clone https://github.com/sethihq/orbit.git
    ```
 
 2. Open `index.html` in your web browser
@@ -105,4 +105,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ♥ by [Your Name] 
+Made with ♥ by Sethi HQ 
