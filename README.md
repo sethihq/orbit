@@ -4,6 +4,8 @@ A minimalist, Dieter Rams-inspired clock web application that combines elegant d
 
 ![Orbit Clock](preview.png)
 
+**[→ View Live Demo](https://0rbit.vercel.app/)**
+
 ## Features
 
 - **Dual Mode Display**
@@ -51,8 +53,12 @@ A minimalist, Dieter Rams-inspired clock web application that combines elegant d
 | S | Toggle Sound |
 | ESC | Exit Focus Mode |
 
-## Installation
+## Quick Start
 
+### Online Version
+Visit [0rbit.vercel.app](https://0rbit.vercel.app/) to use the clock directly in your browser.
+
+### Local Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/sethihq/orbit.git
@@ -61,6 +67,25 @@ A minimalist, Dieter Rams-inspired clock web application that combines elegant d
 2. Open `index.html` in your web browser
 
 That's it! No build process or dependencies required.
+
+## Development
+
+Orbit is built with vanilla JavaScript and CSS, focusing on:
+- Clean, maintainable code
+- Progressive enhancement
+- Accessibility
+- Performance optimization
+- Modern browser APIs
+
+### Project Structure
+```
+orbit/
+├── index.html      # Main HTML structure
+├── styles.css      # Styles and animations
+├── script.js       # Core functionality
+├── favicon.svg     # Vector favicon
+└── README.md       # Documentation
+```
 
 ## Browser Support
 
